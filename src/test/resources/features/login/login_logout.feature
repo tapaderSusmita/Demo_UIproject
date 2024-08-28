@@ -17,6 +17,7 @@ Feature: As a Amazon user I should be able to login and logout with valid creden
     Then I Reduce the Quantity of the macbook pro product to one and proceed to checkout
     And I Click on Sign out
 	Then I got log out from the application and land on sign in page
+  And Testing
    
    
   Scenario Outline: Searching different products after login
