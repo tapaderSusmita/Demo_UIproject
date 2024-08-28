@@ -16,7 +16,8 @@ Feature: As a Amazon user I should be able to login and logout with valid creden
     Then I Select cart from home and remove the earlier added headphones
     Then I Reduce the Quantity of the macbook pro product to one and proceed to checkout
     And I Click on Sign out
-	Then I got log out from the application and land on sign in page
+    Then I got log out from the application and land on sign in page
+    And Check the git rebase
   
    
    
